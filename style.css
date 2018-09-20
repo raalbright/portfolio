@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+#header{
+    border: 1px solid blue;
+}
+
+#header .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+}
+.nav-brand {
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.nav-brand h1{
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+.nav-brand p {
+    margin: 0;
+}
+
+.intro {
+    align-self: center;
+}
